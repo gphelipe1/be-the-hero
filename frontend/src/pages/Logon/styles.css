@@ -1,0 +1,38 @@
+h1{
+    color: #7159c1;
+}
+
+.logon-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh; /*ocupa toda a altura do corpo*/
+    margin: 0 auto; /*fica sempre centralizado na tela*/
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*O flex-box layout é facil pra fazer os alinhamentos.
+    com o display: flex os itens entram no formato flex e o "align-items
+    alinha verticalmente e o justify-content alinha horizontalmente.
+    Por default o "display: flex" enquadra os itens dentro do container
+    um ao lado do outro, a não ser que mude a direção do flex:
+    "flex-direction: column;"
+    */
+}
+
+.logon-container section.form{
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+}
+
+.logon-container section.form form{
+    margin-top:100px;
+}
+
+.logon-container section.form form h1{
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #41414d
+}
+
